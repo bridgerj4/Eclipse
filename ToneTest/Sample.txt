@@ -1,0 +1,6 @@
+-
+Sample
+A5,QUARTER
+G4,QUARTER
+F4,WHOLE
+-
