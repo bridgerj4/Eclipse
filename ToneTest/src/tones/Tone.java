@@ -154,7 +154,7 @@ public class Tone implements Runnable {
 			Scanner scan = new Scanner(System.in);
 			System.out.println("Create a song list by entering a number followed by a comma (ex 1 or 1,2,3)");
 			System.out.println("1 for Mary Had a Little Lamb");
-			System.out.println("2 for My Song");
+			System.out.println("2 for Hotel California (first 12 measures)");
 			System.out.println("3 for Sample");
 			System.out.println("q to quit without playing anything");
 			System.out.println("Enter list here: ");
@@ -165,7 +165,7 @@ public class Tone implements Runnable {
 				go = false;
 			}
 			if(input.contains("2")){
-				songList += "MySong.txt,";
+				songList += "HotelCalifornia.txt,";
 				go = false;
 			}
 			if(input.contains("3")){
